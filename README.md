@@ -22,13 +22,19 @@
 * review_body
 * review_date
 
-#### In Deliverable 1, using PySpark, we extracted the dataset, transformed the data, connected to an AWS RDS instance, and loaded the transformed data into pgAdmin. 
+#### In Deliverable 1, using PySpark, we extracted the dataset, transformed the data, connected to an AWS RDS instance, and loaded the transformed data into pgAdmin by creating 4 different tables. 
 
-![Del 1 Image](Images/Del_1_DF.png)
+![Del 1 Image 1](Images/Del_1_DF.png)
+
+![Del 1 Image 2](Images/Del_1_Customers_Table.png)
+
+![Del 1 Image 3](Images/Del_1_Products_Table.png)
+
+![Del 1 Image 4](Images/Del_1_Review_ID.png)
+
+![Del 1 Image 5](Images/Del_1_Vine_Table.png)
 
 #### In Deliverable 2, using PySpark again, we attempted to determine whether there was any bias toward favorable reviews from Vine members in the US Health Personal Care dataset.
-
-![Del 1 Image](Images/del_1_summary.png)
 
 ## **Results of the Analysis**:
 
@@ -56,4 +62,4 @@
 
 ### Because the percentage of 5-star reviews in the paid Vine program (44%) was actually **lower** than the percentage of 5-star reviews in the non-paid non-Vine program (62%), we can conclude that at least in our specific dataset, there was no obvious positivity bias for reviews in the Vine program. However, the total number of Vine reviews (497) was so much lower than the total number of non-Vine reviews (120,863) that it is possible we do not have enough reviews in the Vine program yet to understand its performance and efficiency.  
 
-### An additional analysis we could run would be to look at the non-Vine reviews' statistics such as the star_ratings' mean and standard deviation to understand the non-paid reviews distribuation by start ratings, and whether those tend to be skewed because of some outliers. 
+### An additional analysis we could run would be to look at the non-Vine reviews' statistics such as the star_ratings' mean and standard deviation to understand the non-paid reviews distribution by start ratings, and whether those tend to be skewed because of some outliers. 
