@@ -22,9 +22,11 @@
 * review_body
 * review_date
 
-#### In Deliverable 1, using PySpark, we extracted the dataset, transformed the data, connected to an AWS RDS instance, and loaded the transformed data into pgAdmin by creating 4 different tables. 
+#### In Deliverable 1, using PySpark, we extracted the dataset, transformed the data, and connected to an AWS RDS instance.
 
 ![Del 1 Image 1](Images/Del_1_DF.png)
+
+#### We finally loaded the transformed data into pgAdmin by creating 4 different tables. 
 
 ![Del 1 Image 2](Images/Del_1_Customers_Table.png)
 
